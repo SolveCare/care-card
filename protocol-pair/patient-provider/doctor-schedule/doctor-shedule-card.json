@@ -1,0 +1,33 @@
+{
+    "type": "DOCTOR_SCHEDULE",
+    "iconUrl": "http://some/path/to/icon",
+    "author": "Nikita Tarasenko",
+    "createdAt": "01-01-2018",
+    "description": "Allows a patient to book a visit to his doctor",
+    "publicSideStructure": {
+        "cardSideType": "PUBLIC",
+        "title": "*${title}*",
+        "subtitle": "${subtitle}",
+        "blocks": [
+            {
+                "type": "SCHEDULE_CALENDAR"
+            },
+            {
+                "type": "SCHEDULE_DETAILS"
+            }
+        ]
+    },
+    "privateSideStructure": {
+        "cardSideType": "PRIVATE",
+        "title": "*${title}*",
+        "subtitle": "${subtitle}",
+        "blocks": [
+            {
+                "type": "SCHEDULE_CALENDAR"
+            },
+            {
+                "type": "SCHEDULE_DETAILS"
+            }
+        ]
+    }
+}

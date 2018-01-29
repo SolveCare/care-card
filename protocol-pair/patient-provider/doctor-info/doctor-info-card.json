@@ -1,0 +1,27 @@
+{
+    "type": "DOCTOR_INFO",
+    "iconUrl": "http://some/path/to/icon",
+    "author": "Vlad Fedorenko",
+    "createdAt": "01-01-2018",
+    "description": "Card relations with doctor",
+    "publicSideStructure": {
+        "cardSideType": "PUBLIC",
+        "title": "*${title}*",
+        "subtitle": "${subtitle}",
+        "blocks": [
+            {
+                "type": "DOCTOR_GENERAL_INFO"
+            },
+            {
+                "type": "DOCTOR_ADDRESS"
+            },
+            {
+                "type": "DOCTOR_RELATIONS_HISTORY"
+            },
+            {
+                "type": "DOCTOR_SHARED_CARDS"
+            }
+        ]
+    },
+    "privateSideStructure": null
+}
